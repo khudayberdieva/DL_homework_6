@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": ""
+  },
+  "text": {
+    "more": "Сиреневые узлы - знакомые из ВУЗа\nСалатовые узлы - мои одноклассники\nГолубые узлы - знакомые из школы\nЖёлтые узлы - знакомые-медики\nРозовые узлы - знакомые из начальной школы\nОранжевые узлы - родственники\nЧёрные узел - мой преподаватель по вокалу\nСиний узел - друг по переписке\nКрасный узел - друг по переписке",
+    "intro": "Граф моих друзей ВКонтакте",
+    "title": "VK Graph"
+  },
+  "legend": {
+    "edgeLabel": "Знакомство",
+    "colorLabel": "Сообщество",
+    "nodeLabel": "Человек"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
